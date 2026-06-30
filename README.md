@@ -12,8 +12,7 @@ This repository contains scripts for the manuscript:
 The analysis includes pooled *H. contortus* samples from Swedish sheep farms. After quality control, the final dataset contained:
 
 * **12 farms**
-* **15 pooled samples** : each sample comprising a pool of at least 2,000 larvae 
-* 2 biological replicate samples from 3 farms (A, F, and G) each
+* **15 pooled samples** : each sample comprising a pool of at least 2,000 larvae; 2 biological replicate samples from 3 farms (A, F, and G) each
 
 * **whole genome sequencing of 15 pooled samples** - Illumina NovaSeq X Plus 
 * Reference genome: *Haemonchus contortus* reference genome: ~283 million bp (0,283 GB), link...
@@ -54,7 +53,7 @@ The repository documents the following analysis steps:
 
 ## Suggested citation
 
-If you use this repository, please cite this paper **Whole Genome Pool Sequencing Reveals Genomic Variation in Field Haemonchus contortus Isolates in Sweden**
+If you use this repository, please cite this paper **Whole Genome Pool Sequencing Reveals Genomic Variation in Field Haemonchus contortus Isolates in Sweden** [LINK]
 
 
 ## License
