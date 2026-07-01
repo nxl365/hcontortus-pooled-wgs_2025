@@ -15,8 +15,7 @@ The analysis includes pooled *H. contortus* samples from Swedish sheep farms. Af
 * **15 pooled samples** : each sample comprising a pool of at least 2,000 larvae; 2 biological replicate samples from 3 farms (A, F, and G) each
 
 * **whole genome sequencing of 15 pooled samples** - Illumina NovaSeq X Plus 
-* Reference genome: *Haemonchus contortus* reference genome: ~283 million bp (0,283 GB), link...
-* annotation:[LINK]
+* *Haemonchus contortus* reference genome (~283 Mbp) and GFF3 annotation file (WormBase release 2021-04) used are available in the [WormBase repository](https://parasite.wormbase.org/Haemonchus_contortus_prjeb506/Info/Index/)
 
 
 
@@ -35,19 +34,15 @@ Data list:
 
 ## Main analyses and scripts
 
-The repository documents the following analysis steps:
-
-1. Read quality control and trimming
-2. Mapping to the *H. contortus* reference genome
-3. Post-mapping processing and quality filtering
-4. Pooled variant calling
-5. Principal component analysis based on allele frequencies
-6. Genome-wide and chromosome-level FST analysis
-7. Window-based nucleotide diversity analysis
-8. Identification of highly differentiated genomic windows
-9. SNP effect annotation
-10. Functional enrichment analysis
-11. Figure generation for the manuscript
+1. Read quality control (QC) and trimming
+2. Mapping, sorting, duplicate marking
+3. Variant calling and filtering
+4. Variant annotation: SNPs and indels
+5. Between-population differentiation: fixation index (FST),Fisher's exact test (FET)
+6. Gene ontology (GO) enrichment analysis
+7. Allele frequency and principal component analysis (PCA): based on SNPs
+8. Within-population diversity: nucleotide diversity (Pi), Watterson’s theta, Tajima’s D
+9. Figure generation
 
 
 
