@@ -38,7 +38,7 @@ Pipeline figure:[UPLOAD the final version later]
 
 
 1. Read quality control (QC) and trimming ✅
-2. Mapping, sorting, duplicate marking
+2. Mapping and post-mapping processing
 3. Variant calling and filtering
 4. Variant annotation: SNPs and indels
 5. Between-population differentiation: fixation index (FST),Fisher's exact test (FET)
