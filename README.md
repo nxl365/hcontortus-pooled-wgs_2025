@@ -37,7 +37,7 @@ Data list:
 Pipeline figure:[UPLOAD the final version later]
 
 
-1. Read quality control (QC) and trimming
+1. Read quality control (QC) and trimming ✅
 2. Mapping, sorting, duplicate marking
 3. Variant calling and filtering
 4. Variant annotation: SNPs and indels
@@ -46,8 +46,6 @@ Pipeline figure:[UPLOAD the final version later]
 7. Allele frequency and principal component analysis (PCA): based on SNPs
 8. Within-population diversity: nucleotide diversity (Pi), Watterson’s theta, Tajima’s D
 9. Figure generation
-
-
 
 ## Suggested citation
 
