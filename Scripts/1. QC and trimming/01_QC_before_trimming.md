@@ -1,11 +1,11 @@
 ## Quality control before trimming
 
-Raw Illumina paired-end reads were assessed using **FastQC**, and the individual FastQC reports were summarized using **MultiQC**.
-
-
 ### Tools
 * FastQC
 * MultiQC
+
+Raw Illumina paired-end reads were assessed using **FastQC**, and the individual FastQC reports were summarized using **MultiQC**.
+
 
 
 ### SLURM bash script

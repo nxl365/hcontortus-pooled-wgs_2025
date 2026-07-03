@@ -34,6 +34,9 @@ Data list:
 
 ## Main analyses and scripts
 
+Pipeline figure:[UPLOAD the final version later]
+
+
 1. Read quality control (QC) and trimming
 2. Mapping, sorting, duplicate marking
 3. Variant calling and filtering
