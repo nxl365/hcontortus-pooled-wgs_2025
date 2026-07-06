@@ -18,7 +18,7 @@ nano 5_mapping_sort_bam.sh
 ```
 
 Script content:
-1. test: run one sample with 2 fastq files
+1. **test: run one sample with 2 fastq files**
 ```bash
 #!/bin/bash -l
 #SBATCH -A naiss2025-22-***
@@ -77,7 +77,7 @@ echo "completed!"
 
 ```
 
-2. run all 17 samples finally
+2. **run all 17 samples finally**
 
 ```bash
 #!/bin/bash -l
@@ -137,7 +137,7 @@ echo "All completed!"
 
 ```
 
-code explanation:
+**code explanation**
 ```bash
 
 bwa mem \  # software: BWA; command: mem
@@ -229,7 +229,7 @@ Sample1.sort.bam
 size: each samples's sorted bam file 8-13 GB
 
 
-* code-- check the output bam file:
+**Code-- check the output bam file**
 ```bash
 module load samtools
 samtools view <...bam>|less -S
