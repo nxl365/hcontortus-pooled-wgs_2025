@@ -218,6 +218,7 @@ Example input structure:
 
 ### Output
 
+17 samples;
 for each sample: input 2 paired-end trimmed.fastq.gz files (R1 and R2), output one sorted bam file
 
 ```text
