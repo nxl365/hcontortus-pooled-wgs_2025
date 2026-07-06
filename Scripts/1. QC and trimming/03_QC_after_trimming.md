@@ -75,7 +75,7 @@ Each `.fastq.gz` file size: 5–7 GB.
 
 Example input structure:
 ```text
-data_dir/
+2_trim_fastp/
 │   ├── sample1_fastp_trim_R1.fastq.gz
 │   └── sample1_fastp_trim_R2.fastq.gz
 │   ├── sample2_fastp_trim_R1.fastq.gz
@@ -92,6 +92,8 @@ data_dir/
 Example FastQC output for one trimmed sample:
 
 ```text
+3_QC_after_trim_fastp/
+
 sample1_fastp_trim_R1_fastqc.html
 sample1_fastp_trim_R1_fastqc.zip
 sample1_fastp_trim_R2_fastqc.html
@@ -101,6 +103,8 @@ sample1_fastp_trim_R2_fastqc.zip
 2. MultiQC generated a merged report for all trimmed samples:
 
 ```text
+3_QC_after_trim_fastp/
+
 XJ4126_after_trim_fastp_multiqc_report.html   
 XJ4126_after_trim_fastp_multiqc_report_data
 ```

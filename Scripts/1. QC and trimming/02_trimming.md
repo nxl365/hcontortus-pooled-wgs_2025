@@ -94,7 +94,8 @@ Each `.fastq.gz` file size: 5–7 GB.
 
 Example input structure:
 ```text
-data_dir/
+raw_data/illumina_HC_wgs_XJ4126/
+
 ├── sample1/
 │   ├── sample1_R1_001.fastq.gz
 │   └── sample1_R2_001.fastq.gz
@@ -110,6 +111,8 @@ fastp generated 4 output files for each sample.
 Example output for one sample:
 
 ```text
+2_trim_fastp/
+
 sample1_fastp_trim_R1.fastq.gz  #trimmed R1 fastq.gz, size changed slightly after trimming
 sample1_fastp_trim_R2.fastq.gz
 sample1_fastp_trim_report.html   # QC report after trimming

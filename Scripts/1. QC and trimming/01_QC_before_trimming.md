@@ -84,7 +84,8 @@ Each `.fastq.gz` file size: 5–7 GB.
 
 Example input structure:
 ```text
-data_dir/
+raw_data/illumina_HC_wgs_XJ4126/
+
 ├── sample1/
 │   ├── sample1_R1_001.fastq.gz
 │   └── sample1_R2_001.fastq.gz
@@ -100,6 +101,8 @@ data_dir/
 Example FastQC output for one sample:
 
 ```text
+1_QC_before/ 
+
 sample1_R1_001_fastqc.html
 sample1_R1_001_fastqc.zip
 sample1_R2_001_fastqc.html
@@ -109,6 +112,8 @@ sample1_R2_001_fastqc.zip
 2. MultiQC generated a merged report for all samples:
 
 ```text
+1_QC_before/ 
+
 XJ4126_multiqc_report.html
 XJ4126_multiqc_report_data
 ```
