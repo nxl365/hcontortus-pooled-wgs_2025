@@ -5,8 +5,8 @@
 
 Picard `MarkDuplicates` was selected here to identify and mark duplicate reads in the coordinate-sorted BAM files. Duplicate reads were not removed. The output BAM files were indexed during this step.
 
-* compare Samtool and Picard:
-`samtools markdup`: faster; more suitable for SNP and indel workflows.
+**Compare Samtool and Picard**:  
+`samtools markdup`: faster; more suitable for SNP and indel workflows.  
 `Picard MarkDuplicates`: slower; widely used in GATK-style workflows; provides detailed duplicate metrics and better compatibility with possible future SV analyses.
 
 
