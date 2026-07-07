@@ -64,7 +64,6 @@ multiqc $output_dir -o $output_dir -n XJ4126_multiqc_report.html # XJ4126 is our
 echo "FastQC and MultiQC completed!"
 ```
 
-
 ### Submit the SLURM job
 
 ```bash
@@ -77,7 +76,7 @@ Approximately 16 minutes.
 
 
 
-## Input data
+## Input
 
 The `$data_dir` contained 17 samples. Each sample had two paired-end read files, resulting in 34 fastq.gz files in total.  
 Each `.fastq.gz` file size: 5–7 GB.

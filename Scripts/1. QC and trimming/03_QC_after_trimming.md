@@ -1,7 +1,7 @@
-## Quality control after trimming
+# Quality control after trimming
 same process to QC before trimming
 
-### Tools
+## Tools
 * FastQC
 * MultiQC
 
@@ -9,16 +9,16 @@ Trimmed Illumina paired-end reads were assessed using **FastQC**, and the indivi
 
 
 
-### SLURM bash script
+## SLURM bash script
 
-Create the bash script:
+### Create the bash script:
 
 ```bash
 module load nano
 nano 3_QC_after_trim_fastp.sh
 ```
 
-Script content:
+### Script content:
 
 ```bash
 #!/bin/bash -l
@@ -63,12 +63,12 @@ sbatch 3_QC_after_trim_fastp.sh
 ```
 
 
-### Running time:
+## Running time:
 Approximately 16 minutes.
 
 
 
-### Input data
+## Input
 
 The `$data_dir` contained trimmed 17 samples. Each sample had two trimmed paired-end read files, resulting in 34 fastq.gz files in total.  
 Each `.fastq.gz` file size: 5–7 GB.
@@ -85,7 +85,7 @@ Example input structure:
 
 
 
-### Output
+## Output
 
 1. FastQC generated one `.html` report and one `.zip` file for each trimmed FASTQ file.
 

@@ -1,6 +1,6 @@
-## marking duplicates
+# marking duplicates
 
-### Tools
+## Tools
 * picard
 
 Picard `MarkDuplicates` was selected here to identify and mark duplicate reads in the coordinate-sorted BAM files. Duplicate reads were not removed. The output BAM files were indexed during this step.
@@ -10,15 +10,15 @@ Picard `MarkDuplicates` was selected here to identify and mark duplicate reads i
 `Picard MarkDuplicates`: slower; widely used in GATK-style workflows; provides detailed duplicate metrics and better compatibility with possible future SV analyses.
 
 
-### SLURM bash script
+## SLURM bash script
 
-Create the bash script:
+### Create the bash script:
 ```bash
 module load nano
 nano 6_mark_duplicate.sh
 ```
 
-Script content:
+### Script content:
 ```bash
 #!/bin/bash -l
 #SBATCH -A naiss2025-22-***
@@ -78,12 +78,12 @@ sbatch 6_mark_duplicate.sh
 ```
 
 
-### Running time:
+## Running time:
 ~ 54 mins
 
 
 
-### Input data
+## Input
 
 17 samples in total; 
 for each sample: one sorted bam file (size: 8-13 GB)
@@ -98,7 +98,7 @@ for each sample: one sorted bam file (size: 8-13 GB)
 
 
 
-### Output
+## Output
 for each sample: 3 output files  
 
 ```text

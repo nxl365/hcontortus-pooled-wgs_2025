@@ -1,6 +1,6 @@
-## Trimming
+# Trimming
 
-### Tools
+## Tools
 * fastp
 
 fastp was used for trimming adapters and removing low quality bases from paired-end illumina reads.
@@ -8,16 +8,16 @@ fastp was used for trimming adapters and removing low quality bases from paired-
 it can identify adaptor sequences automatically (can specify adapter sequences manually), and generates a quality report which can be compared with the **fastqc** reports to see whether the trimming worked.
 
 
-### SLURM bash script
+## SLURM bash script
 
-Create the bash script:
+### Create the bash script:
 
 ```bash
 module load nano
 nano 2_trim_fastp.sh
 ```
 
-Script content:
+### Script content:
 
 ```bash
 #!/bin/bash -l
@@ -82,12 +82,12 @@ sbatch 2_trim_fastp.sh
 ```
 
 
-### Running time:
+## Running time:
 Approximately 8 minutes.
 
 
 
-### Input data
+## Input
 
 The `$data_dir` contained 17 samples. Each sample had two paired-end read files, resulting in 34 fastq.gz files in total.  
 Each `.fastq.gz` file size: 5–7 GB.
@@ -104,7 +104,7 @@ raw_data/illumina_HC_wgs_XJ4126/
 
 
 
-### Output
+## Output
 
 fastp generated 4 output files for each sample.
 

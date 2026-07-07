@@ -1,23 +1,23 @@
-## mapping, sorting, conversion from sam to bam
+# mapping, sorting, conversion from sam to bam
 
 
-### Tools
+## Tools
 * bwa
 * samtools
 
 This step uses **BWA-MEM** to align trimmed paired-end Illumina reads to the *Haemonchus contortus* reference genome. The SAM output from BWA-MEM is piped to **samtools sort**, which converts it to BAM format and sorts the alignments by genomic coordinates.
 
 
-### SLURM bash script
+## SLURM bash script
 
-Create the bash script:
+### Create the bash script:**
 
 ```bash
 module load nano
 nano 5_mapping_sort_bam.sh
 ```
 
-Script content:
+### Script content:
 1. **test: run one sample with 2 fastq files**
 ```bash
 #!/bin/bash -l
@@ -137,7 +137,7 @@ echo "All completed!"
 
 ```
 
-**code explanation**
+### code explanation**
 ```bash
 
 bwa mem \  # software: BWA; command: mem
@@ -177,14 +177,14 @@ sbatch 5_mapping_sort_bam.sh
 ```
 
 
-### Running time:
+## Running time:
 1. test: run one sample with 2 fastq files: about 25 minutes.
 2. run all 17 samples finally: 8 hours
 
 
 
 
-### Input data
+## Input 
 
 1. The decompressed *H. contortus* reference genome in .fa format， and it's index file:
 ```text
@@ -216,7 +216,7 @@ Example input structure:
 ```
 
 
-### Output
+## Output
 
 17 samples;
 for each sample: input 2 paired-end trimmed.fastq.gz files (R1 and R2), output one sorted bam file
@@ -230,7 +230,7 @@ Sample1.sort.bam
 size: each samples's sorted bam file 8-13 GB
 
 
-**Code-- check the output bam file**
+### Code-- check the output bam file
 ```bash
 module load samtools
 samtools view <...bam>|less -S

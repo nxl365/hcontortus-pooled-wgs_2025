@@ -1,15 +1,15 @@
-## mapping rate statistics
+# mapping rate statistics
 
 
-### Tools
+## Tools
 * samtools
 
 This step uses `samtools flagstat` to summarize basic mapping statistics for each coordinate-sorted BAM file.
 
 
-### SLURM bash script
+## SLURM bash script
 
-Create the bash script:
+### Create the bash script:
 
 ```bash
 module load nano
@@ -17,7 +17,7 @@ nano 7_mapping_rate_statistics.sh
 ```
 
 
-Script content:
+### Script content:
 ```bash
 #!/bin/bash -l
 #SBATCH -A naiss2025-22-***
@@ -62,17 +62,17 @@ echo "all completed!"
 ```
 
 
-Submit the SLURM job
+### Submit the SLURM job
 
 ```bash
 sbatch 7_mapping_rate_statistics.sh
 ```
 
-### Running time:
+## Running time:
 ~ 2 mins
 
 
-### Input data
+## Input
 * input is bam file after mapping and sorting, not after marking duplicates.  
 
 17 samples;
@@ -85,7 +85,7 @@ Sample1.sort.bam
 ...
 ```
 
-### Output 
+## Output 
 
 17 samples;
 for each sample: one output file
@@ -98,7 +98,7 @@ Sample1.sort.bam.flagstat
 
 ```
 
-#### Output explanation
+### Output explanation
 
 **Mapped %** is the broadest mapping statistic. it indicates the percentage of all reads aligned to the reference genome, including primary, secondary, and supplementary alignments.
 
@@ -108,14 +108,14 @@ Sample1.sort.bam.flagstat
 
 
 
-## extraction of mapping rate statistics
+# Extraction of mapping rate statistics
 
 
 The extraction mainly focuses on: primary mapped, properly paired
 
 
 
-### python script
+## python script
 
 Create the python script:
 
@@ -151,14 +151,14 @@ print(f"Extracted lines have been written to {output_file}")
 
 ```
 
-### Input
+## Input
 all 17 samples' `.flagstat` files
 
 ```text
 Sample*.sort.bam.flagstat
 ```
 
-### Output
+## Output
 one output file containing information for all 17 samples: primary mapped %, properly paired %
 
 ```text

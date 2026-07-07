@@ -1,7 +1,7 @@
-## Reference genome indexing
+# Reference genome indexing
 
 
-### Tools
+## Tools
 * bwa 
 * samtools 
 * picard 
@@ -11,14 +11,14 @@ BWA index files are required for read alignment with bwa mem. The .fai index gen
 
 
 ## SLURM bash script
-Create the bash script:
+### Create the bash script:**
 
 ```bash
 module load nano
 nano 4_index_refer_genome.sh
 ```
 
-Script content:
+### Script content:
 ```bash
 #!/bin/bash -l
 #SBATCH -A naiss2025-22-***
@@ -59,19 +59,19 @@ java -jar $PICARD CreateSequenceDictionary R=$refer_genome O="$refer_file/haemon
 ```
 
 
-### Submit the SLURM job
+### Submit the SLURM job**
 
 ```bash
 sbatch 4_index_refer_genome.sh
 ```
 
 
-### Running time:
+## Running time:
 Approximately 3 minutes.
 
 
 
-### Input data
+## Input
 
 The input file was the decompressed *H. contortus* reference genome in .fa format:
 ```text
@@ -79,7 +79,7 @@ haemonchus_contortus.PRJEB506.WBPS19.genomic.fa
 ```
 
 
-### Output
+## Output
 
 Keep the index files in the same directory as the reference genome. 
 Here, three types of index files were generated: BWA, SAMtools `.fai`, and Picard `.dict`.
