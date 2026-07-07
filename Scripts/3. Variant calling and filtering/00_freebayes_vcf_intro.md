@@ -1,4 +1,14 @@
-# introduction of freebayes
+# Common code to view VCF file
+```bash
+# for .vcf
+less -S .vcf
+
+# for vcf.gz
+zcat file.vcf.gz | less -S
+bcftools view file.vcf.gz | less -S  # module load bcftools
+```
+
+# Introduction of freebayes
 
 * tutorial and source:
     1.  https://github.com/freebayes/freebayes
