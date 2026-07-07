@@ -39,7 +39,8 @@ Pipeline figure:[UPLOAD the final version later]
 
 1. Quality control (QC) and trimming  ✅
 2. Mapping and post-mapping processing  ✅
-3. Variant calling and filtering
+3. Variant calling
+4. Variant filtering
 4. Variant annotation: SNPs and indels
 5. Between-population differentiation: fixation index (FST),Fisher's exact test (FET)
 6. Gene ontology (GO) enrichment analysis
