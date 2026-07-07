@@ -3,7 +3,7 @@
 
 ### Tools
 * bwa
-* samtool
+* samtools
 
 This step uses **BWA-MEM** to align trimmed paired-end Illumina reads to the *Haemonchus contortus* reference genome. The SAM output from BWA-MEM is piped to **samtools sort**, which converts it to BAM format and sorts the alignments by genomic coordinates.
 

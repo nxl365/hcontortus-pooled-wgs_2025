@@ -3,7 +3,7 @@
 
 ### Tools
 * bwa 
-* samtool 
+* samtools 
 * picard 
 
 Before read mapping, the reference genome needs to be indexed.
