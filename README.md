@@ -37,8 +37,8 @@ Data list:
 Pipeline figure:[UPLOAD the final version later]
 
 
-1. Read quality control (QC) and trimming ✅
-2. Mapping and post-mapping processing
+1. Quality control (QC) and trimming  ✅
+2. Mapping and post-mapping processing  ✅
 3. Variant calling and filtering
 4. Variant annotation: SNPs and indels
 5. Between-population differentiation: fixation index (FST),Fisher's exact test (FET)
@@ -46,6 +46,12 @@ Pipeline figure:[UPLOAD the final version later]
 7. Allele frequency and principal component analysis (PCA): based on SNPs
 8. Within-population diversity: nucleotide diversity (Pi), Watterson’s theta, Tajima’s D
 9. Figure generation
+
+
+some code refer to:
+
+
+write for myself: more details wrote in my private Notion page
 
 ## Suggested citation
 

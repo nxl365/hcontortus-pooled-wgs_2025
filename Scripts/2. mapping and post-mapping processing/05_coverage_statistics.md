@@ -1,21 +1,24 @@
 # Coverage statistics
 
+
 ## Tools
 * samtools
 
-`samtools coverage` was used to calculate coverage statistics from each sorted BAM file. The main output statistics include the number of reads, number of covered bases, coverage percentage, mean sequencing depth, mean base quality, and mean mapping quality.
+- `samtools coverage` was used to calculate coverage statistics from each sorted BAM file. The main output statistics include the number of reads, number of covered bases, coverage percentage, mean sequencing depth, mean base quality, and mean mapping quality.
+
+- This information can be used to inform the min and max coverage used in downstream analyses.
 
 
 ## SLURM bash script
 
-Create the bash script:
+### Create the bash script:
 
 ```bash
 module load nano
 nano 8_coverage_after_mapping_statistics.sh
 ```
 
-Script content:
+### Script content:
 ```bash
 #!/bin/bash -l
 #SBATCH -A naiss2025-22-***
@@ -60,7 +63,7 @@ echo "all completed!"
 ```
 
 
-Submit the SLURM job
+### Submit the SLURM job
 
 ```bash
 sbatch 8_coverage_after_mapping_statistics.sh
