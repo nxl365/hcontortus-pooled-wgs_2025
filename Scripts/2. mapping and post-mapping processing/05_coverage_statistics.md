@@ -128,7 +128,7 @@ mitochondrion   1       14018   84139   14018   100     862.296 39.1    59.1
 
 
 
-# extraction of coverage statistics
+# Extraction of coverage statistics
 
 ## python script
 

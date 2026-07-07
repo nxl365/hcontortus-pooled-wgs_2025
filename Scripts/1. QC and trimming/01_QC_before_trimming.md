@@ -1,6 +1,6 @@
-## Quality control before trimming
+# Quality control before trimming
 
-### Tools
+## Tools
 * FastQC
 * MultiQC
 
@@ -8,16 +8,16 @@ Raw Illumina paired-end reads were assessed using **FastQC**, and the individual
 
 
 
-### SLURM bash script
+## SLURM bash script
 
-Create the bash script:
+### Create the bash script:
 
 ```bash
 module load nano
 nano 1_QC_before.sh
 ```
 
-Script content:
+### Script content:
 
 ```bash
 #!/bin/bash -l     # -l: required to get the full environment with modules
@@ -72,12 +72,12 @@ sbatch 1_QC_before.sh
 ```
 
 
-### Running time:
+## Running time:
 Approximately 16 minutes.
 
 
 
-### Input data
+## Input data
 
 The `$data_dir` contained 17 samples. Each sample had two paired-end read files, resulting in 34 fastq.gz files in total.  
 Each `.fastq.gz` file size: 5–7 GB.
@@ -94,7 +94,7 @@ raw_data/illumina_HC_wgs_XJ4126/
 
 
 
-### Output
+## Output
 
 1. FastQC generated one `.html` report and one `.zip` file for each FASTQ file.
 
