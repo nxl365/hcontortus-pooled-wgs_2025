@@ -99,7 +99,7 @@ for each sample: one sorted bam file (size: 8-13 GB)
 
 
 ## Output
-for each sample: 3 output files  
+17 samples in total; for each sample: 3 output files  
 
 ```text
 
