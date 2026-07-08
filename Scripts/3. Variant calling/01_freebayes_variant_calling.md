@@ -8,6 +8,7 @@
 - FreeBayes was used in pooled-continuous mode to call variants from pooled sequencing data.
 
 
+
 ## SLURM bash script
 
 ### Create the bash script:

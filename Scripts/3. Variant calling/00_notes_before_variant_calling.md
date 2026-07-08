@@ -1,3 +1,11 @@
+# Note on mitochondrial and nuclear chromosomes
+- There are 7 chromosomes involved in the reference genome: chr1, chr2, chr3, chr4, chr5, chrX, mitochondrion
+
+- As we only focus on the nuclear chromosomes, the `mitochondrion` should have been removed, but it was still included in some scripts which would not affect the running and results finally.
+
+- the mitochondrial genome is haploid, whereas the nuclear chromosomes are diploid. Therefore, mitochondrial variant calling may need to be performed separately in the future using other settings. For the current analysis, please keep this limitation in mind and ignore the mitochondrial results.
+
+
 # Common code to view VCF file
 ```bash
 # for .vcf

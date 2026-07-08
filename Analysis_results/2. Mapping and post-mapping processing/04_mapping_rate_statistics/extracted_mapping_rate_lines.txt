@@ -1,0 +1,68 @@
+Sample_XJ-4126-1-ampure.sort.bam.flagstat
+153888441 + 0 primary mapped (82.19% : N/A)
+137293014 + 0 properly paired (73.33% : N/A)
+
+Sample_XJ-4126-10.sort.bam.flagstat
+115623337 + 0 primary mapped (86.36% : N/A)
+102749462 + 0 properly paired (76.75% : N/A)
+
+Sample_XJ-4126-11.sort.bam.flagstat
+75536656 + 0 primary mapped (52.75% : N/A)
+65952670 + 0 properly paired (46.06% : N/A)
+
+Sample_XJ-4126-12.sort.bam.flagstat
+90937807 + 0 primary mapped (52.79% : N/A)
+80065006 + 0 properly paired (46.48% : N/A)
+
+Sample_XJ-4126-13.sort.bam.flagstat
+140476207 + 0 primary mapped (81.99% : N/A)
+124550354 + 0 properly paired (72.69% : N/A)
+
+Sample_XJ-4126-14.sort.bam.flagstat
+177536549 + 0 primary mapped (84.35% : N/A)
+156676474 + 0 properly paired (74.44% : N/A)
+
+Sample_XJ-4126-15.sort.bam.flagstat
+113018770 + 0 primary mapped (71.15% : N/A)
+100492682 + 0 properly paired (63.26% : N/A)
+
+Sample_XJ-4126-16.sort.bam.flagstat
+15827134 + 0 primary mapped (10.00% : N/A)
+11301766 + 0 properly paired (7.14% : N/A)
+
+Sample_XJ-4126-17.sort.bam.flagstat
+25653966 + 0 primary mapped (17.96% : N/A)
+20649822 + 0 properly paired (14.46% : N/A)
+
+Sample_XJ-4126-2-ampure.sort.bam.flagstat
+173183042 + 0 primary mapped (87.01% : N/A)
+154337868 + 0 properly paired (77.54% : N/A)
+
+Sample_XJ-4126-3.sort.bam.flagstat
+114705117 + 0 primary mapped (66.93% : N/A)
+101654538 + 0 properly paired (59.31% : N/A)
+
+Sample_XJ-4126-4-ampure-1.sort.bam.flagstat
+121971071 + 0 primary mapped (66.86% : N/A)
+108726866 + 0 properly paired (59.60% : N/A)
+
+Sample_XJ-4126-5.sort.bam.flagstat
+152706541 + 0 primary mapped (67.57% : N/A)
+135740338 + 0 properly paired (60.07% : N/A)
+
+Sample_XJ-4126-6.sort.bam.flagstat
+152492464 + 0 primary mapped (87.71% : N/A)
+136085220 + 0 properly paired (78.28% : N/A)
+
+Sample_XJ-4126-7.sort.bam.flagstat
+148382981 + 0 primary mapped (86.29% : N/A)
+131596576 + 0 properly paired (76.53% : N/A)
+
+Sample_XJ-4126-8.sort.bam.flagstat
+124030616 + 0 primary mapped (85.45% : N/A)
+110160696 + 0 properly paired (75.89% : N/A)
+
+Sample_XJ-4126-9.sort.bam.flagstat
+143523961 + 0 primary mapped (89.15% : N/A)
+127693862 + 0 properly paired (79.32% : N/A)
+

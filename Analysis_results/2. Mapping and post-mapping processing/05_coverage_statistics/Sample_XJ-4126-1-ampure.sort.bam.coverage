@@ -1,0 +1,8 @@
+#rname	startpos	endpos	numreads	covbases	coverage	meandepth	meanbaseq	meanmapq
+hcontortus_chr4_Celeg_TT_arrow_pilon	1	51826579	28100188	50944075	98.2972	71.418	38.7	49.3
+hcontortus_chr5_Celeg_TT_arrow_pilon	1	48868368	26401769	47136636	96.4563	70.4964	38.7	47.1
+hcontortus_chr2_Celeg_TT_arrow_pilon	1	47382676	27098637	46477783	98.0902	77.2694	38.7	48.1
+hcontortus_chrX_Celeg_TT_arrow_pilon	1	46012677	26480002	43866556	95.3358	79.0603	38.6	43.5
+hcontortus_chr1_Celeg_TT_arrow_pilon	1	45774638	24003490	44283137	96.7416	68.2165	38.7	48.7
+hcontortus_chr3_Celeg_TT_arrow_pilon	1	43560352	24585081	42549624	97.6797	74.5126	38.7	47.3
+mitochondrion	1	14018	84139	14018	100	862.296	39.1	59.1

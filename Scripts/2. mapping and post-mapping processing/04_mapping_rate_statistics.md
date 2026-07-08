@@ -1,6 +1,5 @@
 # mapping rate statistics
 
-
 ## Tools
 * samtools
 
@@ -99,6 +98,27 @@ Sample1.sort.bam.flagstat
 ```
 
 ### Output explanation
+one output `.flagstat` file example:
+
+```bash
+190094085 + 0 in total (QC-passed reads + QC-failed reads)
+187229220 + 0 primary
+0 + 0 secondary
+2864865 + 0 supplementary
+0 + 0 duplicates
+0 + 0 primary duplicates
+156753306 + 0 mapped (82.46% : N/A)
+153888441 + 0 primary mapped (82.19% : N/A)
+187229220 + 0 paired in sequencing
+93614610 + 0 read1
+93614610 + 0 read2
+137293014 + 0 properly paired (73.33% : N/A)
+148745548 + 0 with itself and mate mapped
+5142893 + 0 singletons (2.75% : N/A)
+7019900 + 0 with mate mapped to a different chr
+3834955 + 0 with mate mapped to a different chr (mapQ>=5)
+
+```
 
 **Mapped %** is the broadest mapping statistic. it indicates the percentage of all reads aligned to the reference genome, including primary, secondary, and supplementary alignments.
 
