@@ -72,12 +72,6 @@ echo "All completed"
 ## we extract more fields just in case
 ```
 
-### Submit the SLURM job
-```bash
-bash 020_freebayes_extracted_vcf_info.sh
-```
-
-
 ## Running time:
 for all 17 samples: ~2min
 

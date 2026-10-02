@@ -66,11 +66,6 @@ wait  # Wait for all background processes to finish.
 
 ```
 
-### Submit the SLURM job
-```bash
-bash 019_freebayes_vc_merged_separate.sh
-```
-
 
 ## Running time:
 for all 17 samples: ~4min

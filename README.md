@@ -41,7 +41,7 @@ Pipeline figure:[UPLOAD the final version later]
 2. Mapping and post-mapping processing  ✅
 3. Variant calling  ✅
 4. Variant filtering  ✅
-5. Variant annotation: SNPs and indels
+5. Variant annotation  ✅
 5. Between-population differentiation: fixation index (FST),Fisher's exact test (FET)
 6. Gene ontology (GO) enrichment analysis
 7. Allele frequency and principal component analysis (PCA): based on SNPs
@@ -50,7 +50,6 @@ Pipeline figure:[UPLOAD the final version later]
 
 
 some code refer to: some tutorials?
-
 
 write for myself: more details wrote in my private Notion page
 
