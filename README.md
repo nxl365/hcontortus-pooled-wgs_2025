@@ -48,6 +48,8 @@ Pipeline figure:[UPLOAD the final version later]
 8. Within-population diversity: nucleotide diversity (Pi), Watterson’s theta, Tajima’s D
 9. Figure generation
 
+* [Interactive 3D PCA plot](https://nxl365.github.io/hcontortus-pooled-wgs_2025/Analysis_results/PCA_3D_genome_interactive.html)
+
 
 some code refer to: some tutorials?
 
