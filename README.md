@@ -18,6 +18,9 @@ The analysis includes pooled *H. contortus* samples from Swedish sheep farms. Af
 * ***Haemonchus contortus*** reference genome (~283 Mbp) and **GFF3 annotation** file (WormBase release 2021-04) used are available in the [WormBase repository](https://parasite.wormbase.org/Haemonchus_contortus_prjeb506/Info/Index/)
 
 
+* need to upload a sample metadate : A to N, 1 to 17
+
+
 
 ## Availability of data generated 
 
@@ -42,11 +45,11 @@ Pipeline figure:[UPLOAD the final version later]
 3. Variant calling  ✅
 4. Variant filtering  ✅
 5. Variant annotation  ✅
-5. Between-population differentiation: fixation index (FST),Fisher's exact test (FET)
-6. Gene ontology (GO) enrichment analysis
-7. Allele frequency and principal component analysis (PCA): based on SNPs
-8. Within-population diversity: nucleotide diversity (Pi), Watterson’s theta, Tajima’s D
-9. Figure generation
+6. Between-population differentiation: fixation index (FST),Fisher's exact test (FET)
+7. Gene ontology (GO) enrichment analysis
+8. Allele frequency and principal component analysis (PCA): based on SNPs
+9. Within-population diversity: nucleotide diversity (Pi), Watterson’s theta, Tajima’s D
+10. Figure generation
 
 * [Interactive 3D PCA plot](https://nxl365.github.io/hcontortus-pooled-wgs_2025/Analysis_results/PCA_3D_genome_interactive.html)
 

@@ -149,4 +149,3 @@ one example:
 #CHROM  POS     ID      REF     ALT     QUAL    FILTER  INFO    FORMAT  Sample_XJ-4126-15       Sample_XJ-4126-4-ampure-1
 
 ```
-
