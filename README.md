@@ -48,6 +48,7 @@ Pipeline figure:[UPLOAD the final version later]
 6. Between-population differentiation: fixation index (FST),Fisher's exact test (FET)
 7. Gene ontology (GO) enrichment analysis
 8. Allele frequency and principal component analysis (PCA): based on SNPs
+* here maybe mention the code you think is good to process the poola
 9. Within-population diversity: nucleotide diversity (Pi), Watterson’s theta, Tajima’s D
 10. Figure generation
 

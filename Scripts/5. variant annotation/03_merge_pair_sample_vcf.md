@@ -119,11 +119,7 @@ sbatch 01_merge_vcf.sh Sample_XJ-4126-4-ampure-1 Sample_XJ-4126-7 Sample_XJ-4126
 ```
 
 
-## Running time:
-~2 mins
-
-
-## Input
+c
 one example:
 ```bash
 # a pair of farms
@@ -135,7 +131,7 @@ Sample_XJ-4126-4-ampure-1_filtered_snp.norm.pureSNP.bcf
 ```
 
 
-## Output
+c
 one example:
 
 ```bash
