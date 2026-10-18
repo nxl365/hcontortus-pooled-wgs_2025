@@ -1,4 +1,4 @@
-#  Replicate P-values were combined using Fisher's method, Bonferroni corrected P-value, positions of significantly differentiated SNPs
+#  Replicate P-values were combined using Fisher's method; Bonferroni correction; positions of significantly differentiated SNPs
 Only for the 3 most divergent farm pairs:
 s4 VS s15,  s3 VS s4,  G (has 2 replicates s7, s9 ) VS s4
 
@@ -78,7 +78,7 @@ print(f"Bonferroni corrected p-value cutoff: {bon_p_cutoff}")
 
 ## 3. create the list of positions of significant differentiated SNPs
 
-this is for the later step: use bcftools to extract these significantly differentiated SNPs with annotation in annotated VCF files
+this is for the next step: using bcftools to extract these significantly differentiated SNPs with annotation in annotated VCF files
 
 ```python
 sig_snp_list = sig_inter_snp[['CHR','POS']]
