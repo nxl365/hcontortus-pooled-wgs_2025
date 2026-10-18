@@ -45,14 +45,13 @@ Pipeline figure:[UPLOAD the final version later]
 3. Variant calling  ✅
 4. Variant filtering  ✅
 5. Variant annotation  ✅
-6. Between-population differentiation: fixation index (FST),Fisher's exact test (FET)
-7. Gene ontology (GO) enrichment analysis
-8. Allele frequency and principal component analysis (PCA): based on SNPs
-* here maybe mention the code you think is good to process the poola
+6. Between-population differentiation: fixation index (FST),Fisher's exact test (FET)  ✅
+7. Prepare for gene ontology (GO) enrichment analysis  ✅
+8. Allele frequency and principal component analysis (PCA): based on SNPs ✅
+* [Interactive 3D PCA plot](https://nxl365.github.io/hcontortus-pooled-wgs_2025/Analysis_results/8. PCA/PCA_3D_genome_interactive.html)
 9. Within-population diversity: nucleotide diversity (Pi), Watterson’s theta, Tajima’s D
 10. Figure generation
 
-* [Interactive 3D PCA plot](https://nxl365.github.io/hcontortus-pooled-wgs_2025/Analysis_results/PCA_3D_genome_interactive.html)
 
 
 some code refer to: some tutorials?

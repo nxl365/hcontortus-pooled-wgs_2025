@@ -133,7 +133,7 @@ s4_s15_sig_snp_pos_list-windowFst_10000_Cut1-everysnpFst_cut1.txt
 ```
 
 ## output
-uploaded these outputs to `Analysis_results/7.GO enrichment`
+uploaded these outputs to `Analysis_results/7.prepare for GO enrichment`
 ```bash
 
 # analysis/variant_explore/illumina_HC_wgs_XJ4126/06-FST_removed_s16_s17/06-07_sig_SNP/s4_VS_s15/windowFst_10000_Cut1-everysnpFst_cut1

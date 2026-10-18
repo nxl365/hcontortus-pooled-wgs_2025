@@ -1,4 +1,5 @@
 # Summary of Significant SNPs with annotations
+will get cleaned gene list for GO enrichment analysis
 
 
 ## 1. Extract useful info of annotated VCFs into a TSV table
@@ -79,7 +80,7 @@ G_s4_sig_snp_anno_cut1_1.vcf
 ```
 
 ### output
-uploaded these outputs to `Analysis_results/7.GO enrichment`
+uploaded these outputs to `Analysis_results/7.prepare for GO enrichment`
 ```bash
 s4_s15_sig_snp_anno_extracted.tsv
 
@@ -299,7 +300,7 @@ s4_s15_sig_snp_anno_cut1_1-uni_consequences.tsv
 s4_s15_sig_snp_anno_cut1_1-uni_genes-impact_High.txt
 s4_s15_sig_snp_anno_cut1_1-uni_genes_Moderate_High.txt
 s4_s15_sig_snp_anno_cut1_1-uni_genes_all.txt
-s4_s15_sig_snp_anno_cut1_1-uni_genes_all_clean.txt  ## this is the cleaned gene list for GO enrichment analysis! uploaded to the analysis-results
+s4_s15_sig_snp_anno_cut1_1-uni_genes_all_clean.txt  ## this is the cleaned gene list for GO enrichment analysis! uploaded to the Analysis_results
 s4_s15_sig_snp_anno_cut1_1-uni_genes_counts.tsv
 s4_s15_sig_snp_anno_cut1_1-uni_impact.tsv
 s4_s15_sig_snp_anno_cut1_1uni_genes-impact_Moderate.txt
