@@ -11,6 +11,7 @@ If you use this repository, please cite this paper, DOI: [10.1186/s12864-026-134
 ## Samples
 
 The analysis includes pooled *H. contortus* samples from Swedish sheep farms.
+
 1. **14 farms**
 2. **17 pooled samples** : each sample comprising a pool of at least 2,000 larvae; 2 biological replicate samples from 3 farms (A, F, and G) each
     * 2 samples were excluded from downstream analyses due to poor mapping quality
@@ -64,7 +65,7 @@ The table below shows the correspondence between farm sample IDs (A–N) in the 
 6. Between-population differentiation: fixation index (FST),Fisher's exact test (FET)  ✅
 7. Prepare for gene ontology (GO) enrichment analysis  ✅
 8. Allele frequency and principal component analysis (PCA): based on SNPs ✅
-    * [Interactive 3D PCA plot](https://github.com/nxl365/hcontortus-pooled-wgs_2025/blob/main/Analysis_results/8_PCA/PCA_3D_genome_interactive.html)
+    * [Interactive 3D PCA plot](https://github.com/nxl365/hcontortus-pooled-wgs_2025/blob/main/Analysis_results/8.%20PCA/PCA_3D_genome_interactive.html)
 9. Within-population diversity: nucleotide diversity (Pi) ✅
 
 
