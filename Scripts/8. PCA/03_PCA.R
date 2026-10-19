@@ -279,7 +279,7 @@ webshot2::webshot(
   file = outfile_png,
   vwidth = 2000,
   vheight = 1800,
-  zoom = 2,    #  # scale factor; makes output higher resolution
+  zoom = 2,    #  # scale factor; improve resolution
   delay = 2    # wait 2 seconds before screenshot
 )
 
