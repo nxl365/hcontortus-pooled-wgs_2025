@@ -11,13 +11,11 @@ If you use this repository, please cite this paper, DOI: [10.1186/s12864-026-134
 ## Samples
 
 The analysis includes pooled *H. contortus* samples from Swedish sheep farms.
-
-* **14 farms**
-* **17 pooled samples** : each sample comprising a pool of at least 2,000 larvae; 2 biological replicate samples from 3 farms (A, F, and G) each
-* 2 samples were excluded from downstream analyses due to poor mapping quality
-
-* **whole genome sequencing of pooled samples** - Illumina NovaSeq X Plus 
-* ***Haemonchus contortus*** reference genome (~283 Mbp) and **GFF3 annotation** file (WormBase release 2021-04) used are available in the [WormBase repository](https://parasite.wormbase.org/Haemonchus_contortus_prjeb506/Info/Index/)
+1. **14 farms**
+2. **17 pooled samples** : each sample comprising a pool of at least 2,000 larvae; 2 biological replicate samples from 3 farms (A, F, and G) each
+    * 2 samples were excluded from downstream analyses due to poor mapping quality
+3. **whole genome sequencing of pooled samples** - Illumina NovaSeq X Plus 
+4. ***Haemonchus contortus*** reference genome (~283 Mbp) and **GFF3 annotation** file (WormBase release 2021-04) used are available in the [WormBase repository](https://parasite.wormbase.org/Haemonchus_contortus_prjeb506/Info/Index/)
 
 
 ### Sample Metadata
