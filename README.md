@@ -64,7 +64,7 @@ The table below shows the correspondence between farm sample IDs (A–N) in the 
 6. Between-population differentiation: fixation index (FST),Fisher's exact test (FET)  ✅
 7. Prepare for gene ontology (GO) enrichment analysis  ✅
 8. Allele frequency and principal component analysis (PCA): based on SNPs ✅
-    * [Interactive 3D PCA plot](https://github.com/nxl365/hcontortus-pooled-wgs_2025/blob/main/Analysis_results/8.%20PCA/PCA_3D_genome_interactive.html)
+    * [Interactive 3D PCA plot](https://github.com/nxl365/hcontortus-pooled-wgs_2025/blob/main/Analysis_results/8_PCA/PCA_3D_genome_interactive.html)
 9. Within-population diversity: nucleotide diversity (Pi) ✅
 
 
