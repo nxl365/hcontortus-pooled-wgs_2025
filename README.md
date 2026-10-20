@@ -1,6 +1,6 @@
 # hcontortus-pooled-wgs_2025
 
-This repository contains scripts for the paper:
+This repository contains scripts for the paper:  
 **Whole Genome Pool Sequencing Reveals Genomic Variation in Field Haemonchus contortus Isolates in Sweden**
 
 This work establishes the first genome-wide baseline for field-derived H. contortus populations across multiple Swedish sheep farms and shows that pooled-sample whole-genome sequencing (Pool-seq) is a useful method for describing broad population-genomic patterns in this species. Our findings indicate relatively low genomic variation between Swedish H. contortus populations and high genomic variation within them. This study provides a valuable foundation for future research on parasite adaptation, resistance, surveillance, and control.
