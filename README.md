@@ -56,7 +56,7 @@ The table below shows the correspondence between farm sample IDs (A–N) in the 
 
 
 ## Main analyses and scripts
-![bioinfor pipeline 26.9.png](bioinfor pipeline 26.9.png)
+![Bioinformatics pipeline](bioinfor%20pipeline%2026.9.png)
 
 
 1. Quality control (QC) and trimming  ✅
