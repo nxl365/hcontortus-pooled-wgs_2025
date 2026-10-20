@@ -172,7 +172,9 @@ bash 02_poola_fst_by_chr-run_all_windows.sh
 
 ## output
 
-* fst files
+* fst files 
+
+uploaded the output in `fst_10000_window_5000_step` folder to `Analysis_results/6. FST` on this Github
 
 ```bash
 /cfs/klemming/projects/snic/naiss2025-23-66/analysis/variant_explore/illumina_HC_wgs_XJ4126/06-FST_removed_s16_s17/06-03_poola_fst_by_chr
@@ -181,7 +183,7 @@ bash 02_poola_fst_by_chr-run_all_windows.sh
 # there are 3 folders for 3 window sizes: 
 
 fst_100000_window_50000_step
-fst_10000_window_5000_step
+fst_10000_window_5000_step # upload this to Analysis_results here
 fst_1000_window_500_step
 
 

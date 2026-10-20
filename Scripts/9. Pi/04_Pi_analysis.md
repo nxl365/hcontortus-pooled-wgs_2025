@@ -7,20 +7,20 @@ Summary of the R script:
 
 2. **Calculate genome-wide and chromosome-wide Pi for each sample/population**
    - Calculate the weighted mean Pi, using `length` (the number of bases covered by reads) as the weight (as Npstat use that to calculate Pi in each window)
-   - Generate bar plots of genome-wide and chromosome-wide Pi.
+   - Generate bar plots of genome-wide and chromosome-wide Pi; **Figures generated in the manuscript:** Figure 7
    - For farms with replicates: Use the arithmetic mean of the two replicates to represent the farm.
 
 3. **Generate line plots of Pi along genomic positions**
+   - **Figures generated in the manuscript:** Figure S7
    - Chromosome-wide: Performed for each chromosome.
    - Genome-wide: Not performed, as the plot would be too long and cluttered.
 
-
 4. **Examine the distribution of window-based Pi**
-   - **Box plots:** Compare the median Pi values among samples.
+   - **Box plots:** Compare the median Pi values among samples; **Figures generated in the manuscript:** Figure 8
      - Genome-wide: Performed.
      - Chromosome-wide: Performed.
    - **Wilcoxon rank sum tests:** Compare the distributions of window-based Pi values between samples.
-     - Genome-wide: Performed, with a heatmap showing pairwise p-values.
+     - Genome-wide: Performed, with a heatmap showing pairwise p-values; **Figures generated in the manuscript:** Figure S8
      - Chromosome-wide: Not performed due to the large number of comparisons.
      - For farms with replicates: The geometric mean of the two p-values was used to summarize the results.
 

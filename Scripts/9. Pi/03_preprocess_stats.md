@@ -190,7 +190,7 @@ Sample_XJ-4126-9_hcontortus_chrX.with_pos.cleaned.tsv
 
 
 ### output
-15 `_merged.tsv` for 15 samples
+15 `_merged.tsv` for 15 samples, uploaded to `Analysis_results/9.Pi`
 ```bash
 analysis/variant_explore/illumina_HC_wgs_XJ4126/07-Pi_Tajima_removed_s16_s17/07-02_run_npstats/01_preprocessing_npstat_data/merged_sample_chr 
 
